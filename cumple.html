@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎉 ¡Feliz Cumpleaños Margean!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <canvas id="fireworks"></canvas>
+  <canvas id="confetti"></canvas>
+
+  <div class="container">
+    <h1 class="title">🎂 ¡Feliz Cumpleaños, <span id="nombre">Margean</span>! 🎈</h1>
+
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="img/Captura de pantalla 2025-08-04 104421.png" alt="Foto de Margean" />
+          <p class="click-message">Haz clic para leer mi mensaje 🎁</p>
+        </div>
+        <div class="card-back">
+          <p class="mensaje">
+            <strong>Querida Margean,</strong><br /><br />
+            Hoy celebramos tu vida, tu luz y todo lo que te hace única. Que cada día esté lleno de sueños cumplidos, risas sinceras y momentos mágicos.<br /><br />
+            <em>Con mucho cariño, tu amigo desarrollador que te aprecia mucho. </em>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>💌 Hecho con cariño y código por Gerson 💖</p>
+    </div>
+  </div>
+
+  <audio autoplay loop>
+    <source src="musica.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
